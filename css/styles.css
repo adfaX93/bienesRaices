@@ -13,3 +13,23 @@
     height: 100vh;
     min-height: 600px;
 }
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/** Navegacion **/
+.navegacion a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.navegacion a:hover{
+    color: #71B100;
+}
+.navegacion a:last-of-type{
+    margin-right: 0;
+}
