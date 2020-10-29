@@ -50,6 +50,9 @@ h4{
 .d-block{
     display: block!important;
 }
+.contenido-centrado {
+    max-width: 80rem;
+}
 
 /** Botones **/
 .boton{
@@ -273,4 +276,8 @@ h4{
     font-size: 2rem;
     margin: 0;
     padding: 3rem 0;
+}
+/** Contacto **/
+label{
+    display: block;
 }
