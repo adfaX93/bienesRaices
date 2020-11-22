@@ -330,10 +330,13 @@ h4{
     color: #FFFFFF;
 }
 /** INTERNAS **/
-.contenido-nosotros{
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-column-gap: 2rem;
+/** Nosotros **/
+@media(min-width:768px ) {
+    .contenido-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-column-gap: 2rem;
+    }
 }
 .texto-nosotros blockquote{
     font-weight: 900;
